@@ -1,0 +1,54 @@
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.clr{
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    background-color: red;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: relative; */
+}
+.clr1{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: rgb(155, 83, 83);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.btn{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: rgb(72, 15, 177);
+    font-size: 20px;
+}
+.p1{
+    position: absolute;
+    left: 450px;
+    font-size: 50px;
+}
+.p12{
+    position: absolute;
+    right: 450px;
+    font-size: 50px;
+}
+.p13{
+    position: absolute;
+    top: 450px;
+    font-size: 50px;
+}
+.p14{
+    position: absolute;
+    bottom: 450px;
+    font-size: 50px;
+}
